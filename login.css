@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(95deg, #90d5ec 50%, #fc575e 74%);
+    margin-top: 150px !important;
+}
+
+.register-left{
+    text-align: center;
+    color:#fff;
+}
+.register-left img{
+    max-top: 60px;
+    margin-bottom: 18px;
+    width: 250px;
+
+}
+.register-left a{
+    color: #fff;
+}
+
+.register-left .btn-primary{
+    border-radius: 26px;
+    border: none;
+    width: 150px;
+    background: #fc575e;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.register-left .btn-primary:hover{
+    background: #6fc0db;
+}
+
+.register-right{
+    border: none;
+    background: #f8f8f8;
+    border-top-left-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    padding: 10px;
+    /*margin-left: 10px;*/
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+.register-right:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
+.register-right h2 {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.register-right .btn-primary{
+    border-radius: 26px;
+    border:none;
+    width: 120px;
+    background: #90d5ec;
+    font-weight: 600;
+    color: #fff;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.password{
+
+    background: url("images/eye.svg") no-repeat 560px 12px;
+    background-size: 30px;
+}
+
+/*.register-right .register-form .form-group img{*/
+/*    max-top: 20px;*/
+/*    width: 50px;*/
+/*}*/
+.register-right .btn-primary:hover{
+    background: #fc575e;
+}
+
+.register-right .register-form .form-group{
+    margin-top: 15px;
+}
