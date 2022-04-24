@@ -1,8 +1,19 @@
-function showPassword() {
-    var x = document.getElementById("password");
-    if (x.type === "password") {
-        x.type = "text";
+
+var state = false;
+
+function showPass() {
+    if (state) {
+        document.getElementById("password").setAttribute("type", "password");
+        document.getElementById("eye").style.color='#c10f0f'
+        state = false;
     } else {
-        x.type = "password";
+        document.getElementById("password").setAttribute("type", "text");
+        state = true;
     }
 }
+
+$(document).ready(function(){
+    $('#icon').click(function(){
+        $('ul').toggleClass('show');
+    });
+});

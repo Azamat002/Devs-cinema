@@ -36,8 +36,9 @@ body{
     background: #f8f8f8;
     border-top-left-radius: 10% 30%;
     border-bottom-left-radius: 10% 30%;
-    padding: 10px;
-    /*margin-left: 10px;*/
+    /*padding: 10px;*/
+    padding-left: 20px;
+    padding-right: 20px;
     box-shadow: 20px 20px rgba(0,0,0,.15);
     transition: all .4s ease;
 }
@@ -46,12 +47,12 @@ body{
     box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
-
 .register-right h2 {
     margin-top: 60px;
     text-align: center;
     margin-bottom: 10px;
     color: #555;
+
 }
 
 .register-right .btn-primary{
@@ -64,22 +65,35 @@ body{
     margin-top:20px;
     margin-bottom: 20px;
 }
-
-
-.password{
-
-    background: url("images/eye.svg") no-repeat 560px 12px;
-    background-size: 30px;
-}
-
-/*.register-right .register-form .form-group img{*/
-/*    max-top: 20px;*/
-/*    width: 50px;*/
-/*}*/
 .register-right .btn-primary:hover{
     background: #fc575e;
 }
 
 .register-right .register-form .form-group{
     margin-top: 15px;
+}
+
+/* Password*/
+
+span{
+    position: absolute;
+    top: 150px;
+    right: 380px;
+    transform: translate(0,-48%);
+    top:48%;
+    cursor: pointer;
+}
+
+.fa{
+    font-size: 30px;
+    color: #555555;
+}
+.form-group-bottom {
+    display: flex;
+    float: left;
+}
+.form-group-bottom p, p a{
+    margin-left: 10px;
+    margin-top: 28px;
+    text-decoration: none;
 }
