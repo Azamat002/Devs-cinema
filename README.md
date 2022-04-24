@@ -4,8 +4,12 @@ Software Factory
 
 This project was created for the Software factory course The project is to create an online system for buying cinema tickets, which will allow visitors to book tickets online, as well as see news from the world of cinema and receive notifications of certain events.
 
-Screenshots:
+## **Using stack**
+**Front-end:** _HTML, CSS, Bootstrap, JavaScript_
 
+**Back-end:** _PHP, MySQL_
+
+## **Screenshots:**
 login page:
 ![image](https://user-images.githubusercontent.com/80198432/164992263-2d7467e6-27c5-4aae-94d2-f3f795cc85a8.png)
 
